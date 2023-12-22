@@ -79,3 +79,4 @@ router.route('/comments').post(function (req, res) {
     console.log('Inside POST /comments callback function');
     console.log(req.body);
     var comment = new Comment(req.body);
+});
