@@ -1,4 +1,4 @@
-// Create Web Server
+// Create web server
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
