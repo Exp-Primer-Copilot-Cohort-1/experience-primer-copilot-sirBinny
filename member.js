@@ -1,15 +1,11 @@
-function skillsmembers() {
-    var skills = document.getElementById("skills").value;
-    var members = document.getElementById("members").value;
-    var skills = skills.split(",");
-    var members = members.split(",");
-    var result = [];
-    for (var i = 0; i < skills.length; i++) {
-        for (var j = 0; j < members.length; j++) {
-            if (skills[i] == members[j]) {
-                result.push(skills[i]);
-            }
-        }
-    }
-    document.getElementById("result").innerHTML = result;
+function skillsMember() {
+    var member = document.getElementById("member");
+    var skills = document.getElementById("skills");
+    var skillsMember = document.getElementById("skillsMember");
+    var skillsMember2 = document.getElementById("skillsMember2");
+
+    member.style.display = "none";
+    skills.style.display = "block";
+    skillsMember.style.display = "block";
+    skillsMember2.style.display = "block";
 }
